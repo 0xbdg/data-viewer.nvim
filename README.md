@@ -64,7 +64,7 @@ requir("lazy").setup({
 
 ```lua
 local config = {
-  autoDisplayWhenOpenFile = false,
+  autoDisplayWhenOpenFile = true,
   maxLineEachTable = 100,
   columnColorEnable = true,
   columnColorRoulette = { -- Highlight groups
