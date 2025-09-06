@@ -27,8 +27,8 @@ local KeymapConfig = {
 ---@field skipSqlite boolean
 ---@field view ViewConfig
 local DefaultConfig = {
-  autoDisplayWhenOpenFile = false,
-  skipSqlite = false,
+  autoDisplayWhenOpenFile = true,
+  skipSqlite = true,
   maxLineEachTable = 100,
   columnColorEnable = true,
   columnColorRoulette = { "DataViewerColumn0", "DataViewerColumn1", "DataViewerColumn2" },
