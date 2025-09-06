@@ -21,6 +21,7 @@ Lightweight neovim plugin provides a table view for inspect data files such as `
 - csv
 - tsv
 - sqlite
+- db
 
 ## Requirements
 
