@@ -1,4 +1,4 @@
-local status, dbs = pcall(require, "db")
+local status, dbs = pcall(require, "sqlite")
 local config = require("data-viewer.config")
 
 local get_all_table_names = function(db)
